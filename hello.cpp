@@ -2,5 +2,5 @@
 using namespace std;
 void main()
 {
-    cout << "Nathan drake ta bien tonto" << endl;
+    cout << "This is a test of how slow I am in the head hahahaha xD lmfao" << endl;
 }
