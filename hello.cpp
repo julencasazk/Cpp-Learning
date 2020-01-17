@@ -2,5 +2,5 @@
 using namespace std;
 void main()
 {
-    cout << "Tu mami a cuatro" << endl;
+    cout << "Nathan drake ta bien tonto" << endl;
 }
