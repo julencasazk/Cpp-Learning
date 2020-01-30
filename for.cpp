@@ -12,7 +12,7 @@ int main()
         res += sum;
         ++sum;
     }
-    std::cout << "The sum of all the ints between " << low << " and " << high << " is: " << res << std::endl;
+    std::cout << "The sum of all the integers between " << low << " and " << high << " is: " << res << std::endl;
 
     
 
