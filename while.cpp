@@ -12,6 +12,8 @@ int main()
         ++val1;
     }
     std::cout << "The result of the sum is " << sum << std::endl;
+    return 0;
+    
 
 
 }
