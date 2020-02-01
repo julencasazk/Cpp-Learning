@@ -1,5 +1,7 @@
 #include <iostream>
 
+/// same as while.cpp but using 'for'
+
 int main()
 {
     std::cout << "Introduce two numbers to count between ( Last inclusive ): " << std::endl;
