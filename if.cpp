@@ -2,6 +2,8 @@
 
 int main() {
     
+    // Counts how many times an int repeats
+    
     int current_value = 0, value = 0;
 
     if (std::cin >> current_value)
