@@ -1,10 +1,10 @@
 #include <iostream>
 
-/// same as while.cpp but using 'for'
+// same as while.cpp but using 'for'
 
 int main()
 {
-    /// _Sum of all integers between two numbers from user input_
+    // _Sum of all integers between two numbers from user input_
     
     /*
 
@@ -22,7 +22,7 @@ int main()
 
     */
 
-    /// Print numbers from two user inputs downwards
+    // Print numbers from two user inputs downwards
 
     std::cout << "Introduce two whole numbers to count down from (Higher first): " << std::endl;
     int low = 0, high = 0;
