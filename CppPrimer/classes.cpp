@@ -32,6 +32,8 @@ int main() {
 
     */
 
+    /*
+
     // Read an unknown ammount of items of the same ISBN and sums them
 
     Sales_item item, totalItem;
@@ -42,6 +44,25 @@ int main() {
 
     }
     std::cout << "End result:" << "\n" << totalItem << std::endl;
+
+    */
+
+    // Checks if two items have the same ISBN
+
+    Sales_item itema, itemb;
+    std::cin >> itema >> itemb;
+    if (itema.isbn() == itemb.isbn()) {
+
+        std::cout << itema + itemb << std::endl;
+        return 0;
+
+    }  
+    else
+    {
+        std::cout << "Both items must contain same ISBN code!" << std::endl;
+        return -1;
+    }
+    
 
 
 }
