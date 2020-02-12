@@ -1,5 +1,8 @@
 #include <iostream>
 
+// All complete exercises will be turned into comments inside main
+// the only highlighted one should be the one I'm working on
+
 int main()
 {
     // Sums all integers between two user inputs
@@ -44,7 +47,7 @@ int main()
     else
     {
         std::cout << "You introduced two equal numbers!" << std::endl;
-        
+
     }
     
     
