@@ -47,6 +47,8 @@ int main() {
 
     */
 
+    /*
+
     // Checks if two items have the same ISBN
 
     Sales_item itema, itemb;
@@ -62,7 +64,36 @@ int main() {
         std::cout << "Both items must contain same ISBN code!" << std::endl;
         return -1;
     }
+
+    */
+
+    // Reads several items, and count how many times a ISBN code repeats
+    // TODO
+
+    Sales_item currentItem;
+    Sales_item item;
     
+    if (std::cin >> currentItem)
+    {
+        int count = 0;
+        while (std::cin >> item)    
+        {
+            if (currentItem == item) 
+            {
+                ++count;
+            }
+            else
+            {
+                std::cout << "The ISBN " << currentItem.isbn() << " occurs " << count << " times" << std::endl;
+                currentItem = item;
+                count = 1;
+
+            }
+            
+        }
+        std::cout << "The ISBN " << currentItem.isbn() << " occurs " << count << " times" << std::endl;
+        
+    }
 
 
 }
